@@ -1,0 +1,50 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+header {
+	background-color: #fff;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: 10;
+}
+
+
+
+/// Header logo____________
+
+.logo {
+	width: 164px;
+	float: left;
+	margin-top: 15px;
+	img {
+		max-width: 100%;
+	}
+}
+
+@media(max-width: 767px){
+	.logo {
+	    width: 120px;
+	    float: none;
+	    margin-top: 0;
+	    display: inline-block;
+	    padding: 10px 0 5px;
+	}
+}
+
+/// Header Container____________
+
+header .container {
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+@media(max-width: 767px){
+	header .container {
+		text-align: center;
+	}
+}

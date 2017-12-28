@@ -1,0 +1,20 @@
+/// Variables for main nav elements _____________
+$navElement : 'nav';
+
+/// Mobile Sliding Elemnts ____________
+$navSlidingElements: '
+	main,
+	footer,
+	header,
+	.swipe-layer';
+
+$navSlidingUnFixedElements: '
+	main,
+	footer';
+
+$navSlidingFixedElements: '
+ header,
+.swipe-layer';
+
+/// Navigation position _____________
+
